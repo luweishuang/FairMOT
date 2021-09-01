@@ -1,1 +1,15 @@
 .idea
+src/lib/datasets/dataset/__pycache__/jde.cpython-38.pyc
+src/lib/datasets/dataset/__pycache__/jde.cpython-38.pyc
+demos/
+models/
+DCNv2/
+src/__pycache__/
+src/lib/__pycache__/
+src/lib/models/__pycache__/
+src/lib/models/networks/__pycache__/
+src/lib/models/networks/config/__pycache__/
+src/lib/tracker/__pycache__/
+src/lib/tracking_utils/__pycache__/
+src/lib/utils/__pycache__/
+

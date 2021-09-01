@@ -51,12 +51,12 @@ def gen_labels_crowd(data_root, label_root, ann_root):
 
 
 if __name__ == '__main__':
-    data_val = '/home/zyf/dataset/crowdhuman/images/val'
-    label_val = '/home/zyf/dataset/crowdhuman/labels_with_ids/val'
-    ann_val = '/home/zyf/dataset/crowdhuman/annotation_val.odgt'
-    data_train = '/home/zyf/dataset/crowdhuman/images/train'
-    label_train = '/home/zyf/dataset/crowdhuman/labels_with_ids/train'
-    ann_train = '/home/zyf/dataset/crowdhuman/annotation_train.odgt'
+    data_val = '/data/MOT/crowdhuman/images/val'
+    label_val = '/data/MOT/crowdhuman/labels_with_ids/val'
+    ann_val = '/data/MOT/crowdhuman/annotation_val.odgt'
+    data_train = '/data/MOT/crowdhuman/images/train'
+    label_train = '/data/MOT/crowdhuman/labels_with_ids/train'
+    ann_train = '/data/MOT/crowdhuman/annotation_train.odgt'
     gen_labels_crowd(data_train, label_train, ann_train)
     gen_labels_crowd(data_val, label_val, ann_val)
 
